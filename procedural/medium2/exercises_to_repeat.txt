@@ -1,0 +1,38 @@
+Easy 4:
+  2, 3, 4, 7, 9
+Easy 5:
+  2, 3
+Easy 6:
+
+
+a = 'string'
+
+a.each_char.to_a
+  => ["s", "t", "r", "i", "n", "g"]
+a.chars.each.to_a
+  => ["s", "t", "r", "i", "n", "g"]
+
+
+result = a.each_char {|char| char.upcase!}
+  => "string"
+other_result = a.chars.each {|char| char.upcase!}
+  => ["S", "T", "R", "I", "N", "G"]
+
+
+** consider case statement for lookup table with ranges
+
+  case result
+  when 90..100 then 'A'
+  when 80..89  then 'B'
+  when 70..79  then 'C'
+  when 60..69  then 'D'
+  else              'F'
+  end
+
+** if index starts at one, use a hash instead of array to avoid an off-by-one error!!
+
+** if you're building a lookup table with integers as the key, you can probably use the collection index instead
+
+ # What is up with these while statements looping until gsub! returns nil?
+
+

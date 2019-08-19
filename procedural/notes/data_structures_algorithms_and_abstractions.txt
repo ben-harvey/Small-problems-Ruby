@@ -1,0 +1,63 @@
+Data Structures (string, array, hash, number)
+  - what data structure is the provided input?
+  - what data structure is the required output?
+  - what data structure is a natural fit for the rules / requirements?
+    - often a hash (eg. scrabble score lookup table {'a', 1, 'b', 3 ... })
+  - each data structure gives you access to a suite of built-in methods
+
+  - String
+    - concat, strip, reverse ...
+    - regular expressions!  split, replace, match...
+
+  - Array
+    - problem requires iteration
+    - index is integral to understanding problem
+    - map, each, select ...
+
+  - Hash
+    - problem requires dictionary / lookup table
+    - problem requires partitioning data for more efficient access
+
+  - Number 
+   - problem requires math operations
+   - consider if using number as string has advantages over digits
+
+  - Compound data structures
+    - array of arrays
+    - hash of arrays
+
+Algorithms aka Program Logic
+  - algorithms have to be described in the language of the pertinent data structure
+  - verify your algorithm with your test cases!
+  - know to fluency:
+    - String methods and RegEx
+    - Array and Enumerable 
+        - creation
+        - access
+        - iteration
+        - methods 
+    - Hash 
+        - creation
+        - access
+        - iteration
+        - methods 
+
+Abstraction (establishing a level of complexity on which a person interacts with a system, suppressing the more complex details below the current level.)
+  - rely on built-in abstractions(aka methods)
+  - avoid solving big problems!
+    - always break big problems into smaller problems
+    - don't try to walk through a wall (power through)
+  - try to solve a problem in 1-2 sentences
+    - if you can't do this, raise the level of abstraction
+      - create helper methods
+      - push more detailed steps into their own methods
+
+Interview Tips
+  - be communicative
+  - getting to a working solution is more important than showing off
+  - constantly de-risk
+    - test your building blocks and unfamiliar methods in irb
+    - run your code often
+    - debug one bug at a time
+  - manage your energy
+    - tackle hard problems first (eg program logic)

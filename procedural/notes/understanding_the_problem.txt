@@ -1,0 +1,49 @@
+Small Code Challenge Problems
+  - 20-45 minutes
+  - typical solutions: 10-40 lines of code
+  - used extensively in interviews for a reason:
+    - show mastery in a language
+    - demonstrate logic / reasoning
+    - show communication skills
+  - not a skill that you acquire and file away, requires constant practice
+
+Understand the Problem
+  - if the requirements are explicit:
+    - take notes to condense the requirements
+    - faster and easier to understand than re-reading whole problem
+  
+  - if the requirements are not explicit and need to be modeled:
+    - write notes which describe the problem with computational language
+    - eg. the diamond problem  (3) = *
+                                    ***
+                                     *
+  - if there is implicit knowldege in the problem that needs to be captured:
+    - convert to explicit rules in computational language.
+    - eg. ordinal numbers (1 = st, 2 = nd, 3 = rd...)
+  
+  - identify and define important terms and concepts
+  - ask questions to verify your understanding and demonstrate communication skills
+
+Examples / Test Cases
+  - show input / output
+  - serve two purposes:
+    - help you understand the problem
+    - allow you to verify your solution
+
+  - 'Happy path' 
+    - no exceptional, edge, or error conditions
+
+  - Edge cases
+    - focus on input
+    - emptiness (nil, '', [], {})
+    -boundary conditions--places where rules change
+      -test either side of boundary
+    - repetition / duplication
+    - upper case / lower case
+    - data types
+
+  - Failures / Bad input
+    - raise exceptions / report errors
+    - return a special value (nil, 0, '', [], {})
+
+  - ask questions to check your assumptions and verify your understanding
